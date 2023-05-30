@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/fisaavedrae/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://order-summary-component-main-gilt.vercel.app/)
+- Solution URL: [Add solution URL here](https://github.com/fisaavedrae/nft-preview-card-component-main)
+- Live Site URL: [Add live site URL here](https://nft-preview-card-component-main-six-lime.vercel.app/)
 
 ## My process
 
