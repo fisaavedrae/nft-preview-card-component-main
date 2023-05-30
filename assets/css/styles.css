@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.imagen {
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen img {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+
+.informacion-producto {
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    gap: 10px;
+}
+
+.informacion-producto:hover,
+.id-prod:hover {
+
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.nombre-prod {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.id-prod {
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.desc-prod {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.valores {
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    border-color: hsl(215, 51%, 70%);
+    border: 1px;
+    border-style: none none solid none;
+    padding-bottom: 15px;
+    justify-content: space-between;
+
+
+}
+
+
+
+.etherium {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(178, 100%, 50%);
+}
+
+.etherium img {
+    padding-right: 3px;
+    padding-top: 5px;
+}
+
+.dias {
+    font-size: 0.9rem;
+}
+
+.dias img {
+    padding-right: 3px;
+}
+
+.usuario {
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.datos-usuario {
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+.datos-usuario a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.datos-usuario a:hover {
+
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.attribution {
+    padding-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width:612px) {
+    .nombre-prod {
+        color: white;
+    }
+}
